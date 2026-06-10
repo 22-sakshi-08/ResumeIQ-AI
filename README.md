@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ResumeIQ AI: Advanced Recruiting Intelligence Platform
 
 ResumeIQ AI is a production-ready, portfolio-quality recruiter dashboard and semantic search system. It leverages deep learning vector representations, FAISS search, classification modeling, and dynamic NLP analysis to match resumes to jobs and rank talent efficiently.
@@ -214,3 +215,7 @@ All request payloads use Pydantic models. Below is the endpoint catalog:
 1. **Vector Index Partitioning**: Migrate to IVF FAISS index for high-scale document sets (>1M).
 2. **Context Window Expansion**: Replace MiniLM with a larger context transformer (e.g. `bge-large-en`) for longer resume processing.
 3. **Database Integration**: Set up SQLite persistence for saving matches and historical uploads.
+=======
+# ResumeIQ-AI
+AI-powered recruitment intelligence platform with resume screening, ATS scoring, semantic job matching, skill extraction, and candidate ranking using FastAPI, React, FAISS, and Machine Learning.
+>>>>>>> 1fd5a86c5ac67a8193c4aa621772baa938415ff8
