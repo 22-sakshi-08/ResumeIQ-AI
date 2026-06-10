@@ -1,0 +1,5 @@
+Model,Val_Accuracy,Test_Accuracy,Test_Weighted_Precision,Test_Weighted_Recall,Test_Weighted_F1,Best_Params
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,{'C': 0.1}
+Random Forest,1.0,1.0,1.0,1.0,1.0,"{'max_depth': 10, 'n_estimators': 100}"
+Support Vector Machine,1.0,1.0,1.0,1.0,1.0,"{'C': 0.1, 'kernel': 'linear'}"
+XGBoost,0.9993337774816788,1.0,1.0,1.0,1.0,"{'learning_rate': 0.05, 'n_estimators': 100}"

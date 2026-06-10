@@ -1,0 +1,502 @@
+{
+  "python": {
+    "aliases": ["py", "python3"],
+    "category": "programming",
+    "recommendation": "Strengthen Python programming and backend development skills."
+  },
+  "java": {
+    "aliases": ["java core", "j2ee"],
+    "category": "programming",
+    "recommendation": "Advance Java programming, design patterns, and Spring Boot features."
+  },
+  "c": {
+    "aliases": [],
+    "category": "programming",
+    "recommendation": "Brush up on C pointer management, assembly logic, and embedded structures."
+  },
+  "c++": {
+    "aliases": ["cpp", "c plus plus"],
+    "category": "programming",
+    "recommendation": "Enhance C++ object-oriented engineering and memory management practices."
+  },
+  "c#": {
+    "aliases": ["c sharp", "csharp"],
+    "category": "programming",
+    "recommendation": "Learn C# programming, object-oriented concepts, and the .NET framework."
+  },
+  "javascript": {
+    "aliases": ["js", "es6"],
+    "category": "programming",
+    "recommendation": "Develop strong Javascript core concepts, async models, and browser execution paths."
+  },
+  "typescript": {
+    "aliases": ["ts"],
+    "category": "programming",
+    "recommendation": "Master TypeScript typing models, decorators, and advanced interface contracts."
+  },
+  "go": {
+    "aliases": ["golang", "go language"],
+    "category": "programming",
+    "recommendation": "Learn Go concurrency models, channels, and microservice setups."
+  },
+  "rust": {
+    "aliases": ["rustlang"],
+    "category": "programming",
+    "recommendation": "Study Rust ownership concepts, memory safety models, and cargo tools."
+  },
+  "scala": {
+    "aliases": [],
+    "category": "programming",
+    "recommendation": "Understand Scala functional paradigms, type systems, and data pipelines."
+  },
+  "kotlin": {
+    "aliases": [],
+    "category": "programming",
+    "recommendation": "Develop Kotlin design rules, coroutines, and backend features."
+  },
+  "ruby": {
+    "aliases": [],
+    "category": "programming",
+    "recommendation": "Strengthen Ruby programming syntax, object orientation, and scripting models."
+  },
+  "bash": {
+    "aliases": ["shell script", "shell scripting", "bash script"],
+    "category": "programming",
+    "recommendation": "Enhance Linux automation scripting and Unix pipeline utilities."
+  },
+  "sql": {
+    "aliases": ["structured query language"],
+    "category": "programming",
+    "recommendation": "Strengthen SQL relational query design, window functions, and query optimization."
+  },
+  "r": {
+    "aliases": ["r-language"],
+    "category": "programming",
+    "recommendation": "Brush up on R statistical analysis libraries, ggplot, and modeling scripts."
+  },
+  "tensorflow": {
+    "aliases": ["tf"],
+    "category": "machine learning",
+    "recommendation": "Complete TensorFlow deep learning courses and deploy neural networks."
+  },
+  "pytorch": {
+    "aliases": ["torch"],
+    "category": "machine learning",
+    "recommendation": "Complete PyTorch modeling tracks and practice building convolutional/recurrent networks."
+  },
+  "scikit-learn": {
+    "aliases": ["sklearn"],
+    "category": "machine learning",
+    "recommendation": "Master Scikit-learn validation setups, feature transforms, and classical classifiers."
+  },
+  "keras": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Learn Keras sequential model construction and validation wrappers."
+  },
+  "xgboost": {
+    "aliases": ["xgb"],
+    "category": "machine learning",
+    "recommendation": "Understand gradient boosting principles and tune XGBoost hyperparameter matrices."
+  },
+  "lightgbm": {
+    "aliases": ["lgbm"],
+    "category": "machine learning",
+    "recommendation": "Study LightGBM leaf-wise trees, learning rates, and fast gradient boosting."
+  },
+  "catboost": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Learn CatBoost categorical feature handling, boosting techniques, and tuning."
+  },
+  "pandas": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Master Pandas data indexing, group-by consolidations, and data manipulation."
+  },
+  "numpy": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Master NumPy array operations, vectorization rules, and linear algebra routines."
+  },
+  "opencv": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Build computer vision projects using OpenCV image transforms and edge detection."
+  },
+  "nlp": {
+    "aliases": ["natural language processing"],
+    "category": "machine learning",
+    "recommendation": "Study NLP tokenization structures, word vectors, and language classifiers."
+  },
+  "llm": {
+    "aliases": ["large language models", "large language model"],
+    "category": "machine learning",
+    "recommendation": "Build generative AI systems, fine-tune open weights, and manage token limits."
+  },
+  "langchain": {
+    "aliases": [],
+    "category": "machine learning",
+    "recommendation": "Build conversational agents, memory contexts, and API chains using LangChain."
+  },
+  "rag": {
+    "aliases": ["retrieval augmented generation", "retrieval-augmented generation"],
+    "category": "machine learning",
+    "recommendation": "Build RAG architectures using embedding lookups and vector databases."
+  },
+  "transformers": {
+    "aliases": ["huggingface", "bert", "gpt"],
+    "category": "machine learning",
+    "recommendation": "Understand Transformer self-attention architectures and utilize HuggingFace pipelines."
+  },
+  "deep learning": {
+    "aliases": ["dl"],
+    "category": "machine learning",
+    "recommendation": "Understand backpropagation rules, optimizer selections, and deep architectures."
+  },
+  "reinforcement learning": {
+    "aliases": ["rl"],
+    "category": "machine learning",
+    "recommendation": "Study reinforcement learning policies, reward modeling, and deep Q-networks."
+  },
+  "spark": {
+    "aliases": ["apache spark", "pyspark"],
+    "category": "data engineering",
+    "recommendation": "Learn Apache Spark distributed computing model, DataFrames, and tuning."
+  },
+  "hadoop": {
+    "aliases": ["mapreduce", "hdfs"],
+    "category": "data engineering",
+    "recommendation": "Learn HDFS architectures, MapReduce pipelines, and cluster setups."
+  },
+  "kafka": {
+    "aliases": ["apache kafka"],
+    "category": "data engineering",
+    "recommendation": "Learn event streaming paradigms, producer/consumer patterns, and Kafka brokers."
+  },
+  "airflow": {
+    "aliases": ["apache airflow"],
+    "category": "data engineering",
+    "recommendation": "Learn how to write Airflow DAG workflows and schedule data engineering pipelines."
+  },
+  "databricks": {
+    "aliases": [],
+    "category": "data engineering",
+    "recommendation": "Learn Databricks workspace clusters, notebooks integration, and delta lake features."
+  },
+  "snowflake": {
+    "aliases": [],
+    "category": "data engineering",
+    "recommendation": "Understand Snowflake cloud data warehousing, staging, and query engines."
+  },
+  "hive": {
+    "aliases": ["apache hive"],
+    "category": "data engineering",
+    "recommendation": "Learn Hive query structures, database schemas, and Hadoop metastore hooks."
+  },
+  "dbt": {
+    "aliases": ["data build tool"],
+    "category": "data engineering",
+    "recommendation": "Learn dbt transformations, testing metrics, and data lineage maps."
+  },
+  "etl": {
+    "aliases": ["extract transform load"],
+    "category": "data engineering",
+    "recommendation": "Strengthen ETL pipeline patterns, schema validation steps, and loading speeds."
+  },
+  "aws": {
+    "aliases": ["amazon web services", "ec2", "s3", "lambda"],
+    "category": "cloud",
+    "recommendation": "Learn AWS fundamentals and deploy cloud projects."
+  },
+  "azure": {
+    "aliases": ["microsoft azure"],
+    "category": "cloud",
+    "recommendation": "Study Microsoft Azure resource setups, active directory, and VM configurations."
+  },
+  "gcp": {
+    "aliases": ["google cloud", "google cloud platform"],
+    "category": "cloud",
+    "recommendation": "Learn GCP compute engines, bucket storage, and BigQuery analytic pipelines."
+  },
+  "cloud computing": {
+    "aliases": ["cloud architecture"],
+    "category": "cloud",
+    "recommendation": "Study distributed system design rules and scalable system architecture concepts."
+  },
+  "serverless": {
+    "aliases": ["lambda functions", "cloud functions"],
+    "category": "cloud",
+    "recommendation": "Develop serverless backend applications with AWS Lambda or GCP Cloud Functions."
+  },
+  "docker": {
+    "aliases": ["containers", "containerization"],
+    "category": "devops",
+    "recommendation": "Build containerized applications using Docker."
+  },
+  "kubernetes": {
+    "aliases": ["k8s", "orchestration"],
+    "category": "devops",
+    "recommendation": "Gain orchestration experience with Kubernetes."
+  },
+  "terraform": {
+    "aliases": ["infrastructure as code", "iac"],
+    "category": "devops",
+    "recommendation": "Deploy cloud infrastructure environments using Terraform scripts."
+  },
+  "jenkins": {
+    "aliases": ["jenkins pipeline"],
+    "category": "devops",
+    "recommendation": "Learn how to build automated CI/CD automation pipelines using Jenkins."
+  },
+  "github actions": {
+    "aliases": ["github action"],
+    "category": "devops",
+    "recommendation": "Automate testing and builds with GitHub Actions CI/CD workflows."
+  },
+  "ansible": {
+    "aliases": [],
+    "category": "devops",
+    "recommendation": "Learn Ansible configuration management, playbooks, and server orchestration."
+  },
+  "ci/cd": {
+    "aliases": ["continuous integration", "continuous deployment"],
+    "category": "devops",
+    "recommendation": "Implement complete continuous integration and delivery loops for web applications."
+  },
+  "git": {
+    "aliases": ["github", "gitlab"],
+    "category": "devops",
+    "recommendation": "Learn Git version control, branching workflows, merging, and PR procedures."
+  },
+  "postgresql": {
+    "aliases": ["postgres"],
+    "category": "databases",
+    "recommendation": "Study PostgreSQL index strategies, table partitions, and relational optimizations."
+  },
+  "mysql": {
+    "aliases": ["my-sql"],
+    "category": "databases",
+    "recommendation": "Learn MySQL database indexing, queries optimization, and schema designs."
+  },
+  "mongodb": {
+    "aliases": ["mongo", "nosql"],
+    "category": "databases",
+    "recommendation": "Understand MongoDB document-based schemas, aggregation metrics, and indexing."
+  },
+  "redis": {
+    "aliases": ["caching"],
+    "category": "databases",
+    "recommendation": "Learn Redis key-value storage designs, caching models, and publish-subscribe flows."
+  },
+  "elasticsearch": {
+    "aliases": ["elastic search"],
+    "category": "databases",
+    "recommendation": "Build advanced search features, inverted indexes, and filters using Elasticsearch."
+  },
+  "sqlite": {
+    "aliases": [],
+    "category": "databases",
+    "recommendation": "Understand SQLite database connections and local storage structures."
+  },
+  "cassandra": {
+    "aliases": ["apache cassandra"],
+    "category": "databases",
+    "recommendation": "Learn Cassandra wide-column partition rules, query structures, and cluster rings."
+  },
+  "dynamodb": {
+    "aliases": ["dynamo"],
+    "category": "databases",
+    "recommendation": "Learn AWS DynamoDB partition keys, sort keys, and global secondary indexes."
+  },
+  "django": {
+    "aliases": ["django rest framework", "drf"],
+    "category": "backend",
+    "recommendation": "Learn Django MVC architecture, ORM engines, and REST endpoints construction."
+  },
+  "flask": {
+    "aliases": [],
+    "category": "backend",
+    "recommendation": "Learn Flask micro-framework routing, request contexts, and modular blueprints."
+  },
+  "fastapi": {
+    "aliases": [],
+    "category": "backend",
+    "recommendation": "Build secure, asynchronous APIs with FastAPI, incorporating Pydantic models."
+  },
+  "node.js": {
+    "aliases": ["node", "nodejs"],
+    "category": "backend",
+    "recommendation": "Learn Node.js event loops, asynchronous standard modules, and package management."
+  },
+  "spring boot": {
+    "aliases": ["spring", "spring framework"],
+    "category": "backend",
+    "recommendation": "Study Spring Boot dependencies management, IOC containers, and entity models."
+  },
+  "ruby on rails": {
+    "aliases": ["rails"],
+    "category": "backend",
+    "recommendation": "Learn Rails conventions, ActiveRecord ORM, and database migration steps."
+  },
+  "express": {
+    "aliases": ["expressjs", "express.js"],
+    "category": "backend",
+    "recommendation": "Design middleware logic, routers, and request-response handling using Express.js."
+  },
+  "graphql": {
+    "aliases": [],
+    "category": "backend",
+    "recommendation": "Understand GraphQL query schemas, mutations, and resolver mapping structures."
+  },
+  "rest api": {
+    "aliases": ["restful api", "restful apis", "rest apis"],
+    "category": "backend",
+    "recommendation": "Study HTTP request protocols, status codes, and clean RESTful design rules."
+  },
+  "react": {
+    "aliases": ["reactjs", "react.js"],
+    "category": "frontend",
+    "recommendation": "Study React hooks, state management paradigms, and DOM rendering optimizations."
+  },
+  "angular": {
+    "aliases": ["angularjs", "angular.js"],
+    "category": "frontend",
+    "recommendation": "Learn Angular modules, dependency injection, and RxJS reactive architectures."
+  },
+  "vue": {
+    "aliases": ["vuejs", "vue.js"],
+    "category": "frontend",
+    "recommendation": "Understand Vue component architectures, reactivity models, and Vuex state flows."
+  },
+  "next.js": {
+    "aliases": ["nextjs"],
+    "category": "frontend",
+    "recommendation": "Learn Next.js server-side rendering, routing models, and static page exports."
+  },
+  "html5": {
+    "aliases": ["html"],
+    "category": "frontend",
+    "recommendation": "Learn HTML5 semantic structures, forms, audio/video canvas API tags."
+  },
+  "css3": {
+    "aliases": ["css"],
+    "category": "frontend",
+    "recommendation": "Master CSS flexbox layouts, grid rules, media queries, and responsive structures."
+  },
+  "tailwindcss": {
+    "aliases": ["tailwind"],
+    "category": "frontend",
+    "recommendation": "Develop frontend interfaces rapidly using Tailwind CSS utility-first classes."
+  },
+  "bootstrap": {
+    "aliases": [],
+    "category": "frontend",
+    "recommendation": "Learn Bootstrap grids systems, themes, and pre-built design components."
+  },
+  "redux": {
+    "aliases": ["redux toolkit"],
+    "category": "frontend",
+    "recommendation": "Understand Redux global state stores, actions, reducers, and dispatch pipelines."
+  },
+  "flutter": {
+    "aliases": [],
+    "category": "mobile",
+    "recommendation": "Develop cross-platform mobile apps with Flutter and learn Dart architectures."
+  },
+  "react native": {
+    "aliases": [],
+    "category": "mobile",
+    "recommendation": "Build cross-platform mobile apps with React Native using Javascript components."
+  },
+  "android": {
+    "aliases": ["android studio"],
+    "category": "mobile",
+    "recommendation": "Study Android SDK platforms, activities lifecycles, and layouts designs."
+  },
+  "ios": {
+    "aliases": ["xcode"],
+    "category": "mobile",
+    "recommendation": "Understand iOS application lifecycle flows, swift UI components, and App Store rules."
+  },
+  "swift": {
+    "aliases": [],
+    "category": "mobile",
+    "recommendation": "Learn Swift syntax configurations, properties, wrappers, and optionals handles."
+  },
+  "power bi": {
+    "aliases": ["powerbi"],
+    "category": "analytics",
+    "recommendation": "Create interactive Power BI dashboards, DAX metrics, and data models."
+  },
+  "tableau": {
+    "aliases": ["tableau desktop"],
+    "category": "analytics",
+    "recommendation": "Build interactive Tableau charts, workbook dashboards, and data filters."
+  },
+  "excel": {
+    "aliases": ["ms excel", "spreadsheets"],
+    "category": "analytics",
+    "recommendation": "Master Excel formulas, pivot tables, lookup operations, and chart designs."
+  },
+  "sas": {
+    "aliases": [],
+    "category": "analytics",
+    "recommendation": "Understand SAS data step structures, procedures, and statistical macro scripts."
+  },
+  "looker": {
+    "aliases": ["lookml"],
+    "category": "analytics",
+    "recommendation": "Develop data models and dashboards using LookML scripting structures."
+  },
+  "oauth": {
+    "aliases": ["oauth2", "oauth 2.0"],
+    "category": "security",
+    "recommendation": "Understand OAuth 2.0 grant types, authentication flows, and token authorization codes."
+  },
+  "jwt": {
+    "aliases": ["json web token", "json web tokens"],
+    "category": "security",
+    "recommendation": "Learn how to sign, verify, and parse secure JSON Web Tokens for auth structures."
+  },
+  "iam": {
+    "aliases": ["identity and access management", "identity management"],
+    "category": "security",
+    "recommendation": "Learn to manage user identities, access policies, groups, and cloud roles."
+  },
+  "cryptography": {
+    "aliases": ["encryption", "decryption"],
+    "category": "security",
+    "recommendation": "Study symmetric and asymmetric encryption systems (AES, RSA) and hashing algorithms."
+  },
+  "firewalls": {
+    "aliases": ["firewall"],
+    "category": "security",
+    "recommendation": "Learn firewall traffic rules, ports filtering, and intrusion prevention logic."
+  },
+  "jira": {
+    "aliases": [],
+    "category": "tools",
+    "recommendation": "Understand Jira issue boards, sprint tracks, and agile project workflows."
+  },
+  "confluence": {
+    "aliases": [],
+    "category": "tools",
+    "recommendation": "Practice wiki writing, requirement pages linking, and team collaborations documentation."
+  },
+  "maven": {
+    "aliases": [],
+    "category": "tools",
+    "recommendation": "Learn Maven dependency scopes, build plugins, and POM file configurations."
+  },
+  "gradle": {
+    "aliases": [],
+    "category": "tools",
+    "recommendation": "Learn Gradle build tasks, scripts mapping, and dependencies downloads rules."
+  },
+  "webpack": {
+    "aliases": [],
+    "category": "tools",
+    "recommendation": "Configure Webpack loaders, build bundling targets, and optimize file sizes."
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ResumeIQ AI API",
+    "description": "Advanced recruiting intelligence, parsing, semantic job matching, and ATS prediction backend.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "summary": "Get Health",
+        "description": "Simple API health check endpoint.",
+        "operationId": "get_health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/version": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "summary": "Get Version",
+        "description": "Returns application API metadata versioning info.",
+        "operationId": "get_version_version_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/predict-role": {
+      "post": {
+        "tags": [
+          "Machine Learning"
+        ],
+        "summary": "Predict Role",
+        "description": "Predicts candidate category based on resume text using trained classification model.",
+        "operationId": "predict_role_predict_role_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResumeTextRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PredictRoleResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ats-score": {
+      "post": {
+        "tags": [
+          "Machine Learning"
+        ],
+        "summary": "Predict Ats Score",
+        "description": "Calculates parsed resume ATS score and detail breakdown relative to required skills list.",
+        "operationId": "predict_ats_score_ats_score_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ATSScoreRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ATSScoreResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/extract-skills": {
+      "post": {
+        "tags": [
+          "NLP"
+        ],
+        "summary": "Extract Skills",
+        "description": "Extracts unique lowercase canonical skills from raw input text.",
+        "operationId": "extract_skills_extract_skills_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ExtractSkillsRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExtractSkillsResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/job-match": {
+      "post": {
+        "tags": [
+          "Search"
+        ],
+        "summary": "Match Jobs",
+        "description": "Searches and matches candidate resume against a set of input job descriptions.",
+        "operationId": "match_jobs_job_match_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JobMatchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobMatchResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/candidate-match": {
+      "post": {
+        "tags": [
+          "Search"
+        ],
+        "summary": "Match Candidates",
+        "description": "Searches and matches a job description against candidate resumes using hybrid scoring.",
+        "operationId": "match_candidates_candidate_match_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CandidateMatchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CandidateMatchResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recommendations": {
+      "post": {
+        "tags": [
+          "NLP"
+        ],
+        "summary": "Get Recommendations",
+        "description": "Performs skill gap analysis and returns dynamic recommendations for skill gaps.",
+        "operationId": "get_recommendations_recommendations_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecommendationsRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecommendationsResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ATSScoreRequest": {
+        "properties": {
+          "resume_text": {
+            "type": "string",
+            "title": "Resume Text",
+            "description": "Full text of the resume."
+          },
+          "required_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Required Skills",
+            "description": "List of required skills."
+          }
+        },
+        "type": "object",
+        "required": [
+          "resume_text",
+          "required_skills"
+        ],
+        "title": "ATSScoreRequest"
+      },
+      "ATSScoreResponse": {
+        "properties": {
+          "ats_score": {
+            "type": "number",
+            "title": "Ats Score",
+            "description": "Calculated ATS score out of 100."
+          },
+          "breakdown": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Breakdown",
+            "description": "Itemized scores for skills, experience, projects, and education."
+          }
+        },
+        "type": "object",
+        "required": [
+          "ats_score",
+          "breakdown"
+        ],
+        "title": "ATSScoreResponse"
+      },
+      "CandidateDict": {
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "title": "Candidate Id"
+          },
+          "resume_text": {
+            "type": "string",
+            "title": "Resume Text"
+          }
+        },
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "resume_text"
+        ],
+        "title": "CandidateDict"
+      },
+      "CandidateMatchRequest": {
+        "properties": {
+          "job_description": {
+            "type": "string",
+            "title": "Job Description"
+          },
+          "resumes": {
+            "items": {
+              "$ref": "#/components/schemas/CandidateDict"
+            },
+            "type": "array",
+            "title": "Resumes"
+          },
+          "top_k": {
+            "type": "integer",
+            "title": "Top K",
+            "default": 10
+          }
+        },
+        "type": "object",
+        "required": [
+          "job_description",
+          "resumes"
+        ],
+        "title": "CandidateMatchRequest"
+      },
+      "CandidateMatchResponse": {
+        "properties": {
+          "top_candidates": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Top Candidates"
+          }
+        },
+        "type": "object",
+        "required": [
+          "top_candidates"
+        ],
+        "title": "CandidateMatchResponse"
+      },
+      "ExtractSkillsRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Text content to extract skills from."
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "ExtractSkillsRequest"
+      },
+      "ExtractSkillsResponse": {
+        "properties": {
+          "skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Skills",
+            "description": "Unique list of extracted canonical skills."
+          }
+        },
+        "type": "object",
+        "required": [
+          "skills"
+        ],
+        "title": "ExtractSkillsResponse"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "JobDict": {
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "job_title": {
+            "type": "string",
+            "title": "Job Title"
+          },
+          "jd_text": {
+            "type": "string",
+            "title": "Jd Text"
+          }
+        },
+        "type": "object",
+        "required": [
+          "job_id",
+          "job_title",
+          "jd_text"
+        ],
+        "title": "JobDict"
+      },
+      "JobMatchRequest": {
+        "properties": {
+          "resume_text": {
+            "type": "string",
+            "title": "Resume Text"
+          },
+          "jobs": {
+            "items": {
+              "$ref": "#/components/schemas/JobDict"
+            },
+            "type": "array",
+            "title": "Jobs"
+          },
+          "top_k": {
+            "type": "integer",
+            "title": "Top K",
+            "default": 5
+          }
+        },
+        "type": "object",
+        "required": [
+          "resume_text",
+          "jobs"
+        ],
+        "title": "JobMatchRequest"
+      },
+      "JobMatchResponse": {
+        "properties": {
+          "top_jobs": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Top Jobs"
+          }
+        },
+        "type": "object",
+        "required": [
+          "top_jobs"
+        ],
+        "title": "JobMatchResponse"
+      },
+      "PredictRoleResponse": {
+        "properties": {
+          "predicted_role": {
+            "type": "string",
+            "title": "Predicted Role",
+            "description": "Predict role category class name."
+          },
+          "confidence": {
+            "type": "number",
+            "title": "Confidence",
+            "description": "Prediction confidence score."
+          }
+        },
+        "type": "object",
+        "required": [
+          "predicted_role",
+          "confidence"
+        ],
+        "title": "PredictRoleResponse"
+      },
+      "RecommendationsRequest": {
+        "properties": {
+          "resume_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Resume Skills"
+          },
+          "jd_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Jd Skills"
+          }
+        },
+        "type": "object",
+        "required": [
+          "resume_skills",
+          "jd_skills"
+        ],
+        "title": "RecommendationsRequest"
+      },
+      "RecommendationsResponse": {
+        "properties": {
+          "matched": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Matched"
+          },
+          "missing": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Missing"
+          },
+          "extra": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Extra"
+          },
+          "match_percentage": {
+            "type": "number",
+            "title": "Match Percentage"
+          },
+          "recommendations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Recommendations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "matched",
+          "missing",
+          "extra",
+          "match_percentage",
+          "recommendations"
+        ],
+        "title": "RecommendationsResponse"
+      },
+      "ResumeTextRequest": {
+        "properties": {
+          "resume_text": {
+            "type": "string",
+            "title": "Resume Text",
+            "description": "Full text parsed from the candidate's resume."
+          }
+        },
+        "type": "object",
+        "required": [
+          "resume_text"
+        ],
+        "title": "ResumeTextRequest"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

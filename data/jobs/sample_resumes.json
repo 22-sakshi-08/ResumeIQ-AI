@@ -1,0 +1,202 @@
+[
+  {
+    "candidate_id": "CAND_001",
+    "resume_text": "Candidate Name: Alex Rivera\nEmail: alex.rivera@example.com\nTitle: Software Engineer\nSkills: python, java, c++, sql, git, docker\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_002",
+    "resume_text": "Candidate Name: Jamie Lan\nEmail: jamie.lan@example.com\nTitle: Senior Software Engineer\nSkills: python, java, c++, sql, git, docker\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_003",
+    "resume_text": "Candidate Name: Morgan Patel\nEmail: morgan.patel@example.com\nTitle: Software Engineer Specialist\nSkills: python, java, c++, sql, git, docker\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_004",
+    "resume_text": "Candidate Name: Taylor Chen\nEmail: taylor.chen@example.com\nTitle: Lead Software Engineer\nSkills: python, java, c++, sql, git, docker\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_005",
+    "resume_text": "Candidate Name: Jordan Smith\nEmail: jordan.smith@example.com\nTitle: Junior Software Engineer\nSkills: python, java, c++, sql, git, docker\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, java, c++, sql, git, docker.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_006",
+    "resume_text": "Candidate Name: Chris Evans\nEmail: chris.evans@example.com\nTitle: Data Scientist\nSkills: python, r, sql, scikit-learn, tensorflow, pytorch, pandas\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_007",
+    "resume_text": "Candidate Name: Pat Miller\nEmail: pat.miller@example.com\nTitle: Senior Data Scientist\nSkills: python, r, sql, scikit-learn, tensorflow, pytorch, pandas\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_008",
+    "resume_text": "Candidate Name: Sam Wilson\nEmail: sam.wilson@example.com\nTitle: Data Scientist Specialist\nSkills: python, r, sql, scikit-learn, tensorflow, pytorch, pandas\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_009",
+    "resume_text": "Candidate Name: Robin Hood\nEmail: robin.hood@example.com\nTitle: Lead Data Scientist\nSkills: python, r, sql, scikit-learn, tensorflow, pytorch, pandas\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_010",
+    "resume_text": "Candidate Name: Drew Barry\nEmail: drew.barry@example.com\nTitle: Junior Data Scientist\nSkills: python, r, sql, scikit-learn, tensorflow, pytorch, pandas\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, r, sql, scikit-learn, tensorflow, pytorch, pandas.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_011",
+    "resume_text": "Candidate Name: Casey Jones\nEmail: casey.jones@example.com\nTitle: Machine Learning Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_012",
+    "resume_text": "Candidate Name: Kelly Green\nEmail: kelly.green@example.com\nTitle: Senior Machine Learning Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_013",
+    "resume_text": "Candidate Name: Skyler White\nEmail: skyler.white@example.com\nTitle: Machine Learning Engineer Specialist\nSkills: python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_014",
+    "resume_text": "Candidate Name: Jesse Pink\nEmail: jesse.pink@example.com\nTitle: Lead Machine Learning Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_015",
+    "resume_text": "Candidate Name: Walter Black\nEmail: walter.black@example.com\nTitle: Junior Machine Learning Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_016",
+    "resume_text": "Candidate Name: Terry Silver\nEmail: terry.silver@example.com\nTitle: Data Engineer\nSkills: python, scala, sql, aws, docker, bash\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_017",
+    "resume_text": "Candidate Name: Dana Scully\nEmail: dana.scully@example.com\nTitle: Senior Data Engineer\nSkills: python, scala, sql, aws, docker, bash\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_018",
+    "resume_text": "Candidate Name: Fox Mulder\nEmail: fox.mulder@example.com\nTitle: Data Engineer Specialist\nSkills: python, scala, sql, aws, docker, bash\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_019",
+    "resume_text": "Candidate Name: John Locke\nEmail: john.locke@example.com\nTitle: Lead Data Engineer\nSkills: python, scala, sql, aws, docker, bash\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_020",
+    "resume_text": "Candidate Name: Jack Shephard\nEmail: jack.shephard@example.com\nTitle: Junior Data Engineer\nSkills: python, scala, sql, aws, docker, bash\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, scala, sql, aws, docker, bash.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_021",
+    "resume_text": "Candidate Name: Hugo Reyes\nEmail: hugo.reyes@example.com\nTitle: Backend Engineer\nSkills: python, java, go, sql, docker, git, bash\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_022",
+    "resume_text": "Candidate Name: Kate Austen\nEmail: kate.austen@example.com\nTitle: Senior Backend Engineer\nSkills: python, java, go, sql, docker, git, bash\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_023",
+    "resume_text": "Candidate Name: Sawyer Ford\nEmail: sawyer.ford@example.com\nTitle: Backend Engineer Specialist\nSkills: python, java, go, sql, docker, git, bash\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_024",
+    "resume_text": "Candidate Name: Jin Kwon\nEmail: jin.kwon@example.com\nTitle: Lead Backend Engineer\nSkills: python, java, go, sql, docker, git, bash\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_025",
+    "resume_text": "Candidate Name: Sun Kwon\nEmail: sun.kwon@example.com\nTitle: Junior Backend Engineer\nSkills: python, java, go, sql, docker, git, bash\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, java, go, sql, docker, git, bash.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_026",
+    "resume_text": "Candidate Name: Charlie Pace\nEmail: charlie.pace@example.com\nTitle: Frontend Engineer\nSkills: javascript, typescript, react, html, css, git\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_027",
+    "resume_text": "Candidate Name: Claire Littleton\nEmail: claire.littleton@example.com\nTitle: Senior Frontend Engineer\nSkills: javascript, typescript, react, html, css, git\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in javascript.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_028",
+    "resume_text": "Candidate Name: Sayid Jarrah\nEmail: sayid.jarrah@example.com\nTitle: Frontend Engineer Specialist\nSkills: javascript, typescript, react, html, css, git\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_029",
+    "resume_text": "Candidate Name: Ben Linus\nEmail: ben.linus@example.com\nTitle: Lead Frontend Engineer\nSkills: javascript, typescript, react, html, css, git\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_030",
+    "resume_text": "Candidate Name: Juliet Burke\nEmail: juliet.burke@example.com\nTitle: Junior Frontend Engineer\nSkills: javascript, typescript, react, html, css, git\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with javascript, typescript, react, html, css, git.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_031",
+    "resume_text": "Candidate Name: Richard Alpert\nEmail: richard.alpert@example.com\nTitle: Full Stack Engineer\nSkills: python, javascript, typescript, react, sql, docker, git\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_032",
+    "resume_text": "Candidate Name: Miles Straume\nEmail: miles.straume@example.com\nTitle: Senior Full Stack Engineer\nSkills: python, javascript, typescript, react, sql, docker, git\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_033",
+    "resume_text": "Candidate Name: Daniel Faraday\nEmail: daniel.faraday@example.com\nTitle: Full Stack Engineer Specialist\nSkills: python, javascript, typescript, react, sql, docker, git\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_034",
+    "resume_text": "Candidate Name: Charlotte Lewis\nEmail: charlotte.lewis@example.com\nTitle: Lead Full Stack Engineer\nSkills: python, javascript, typescript, react, sql, docker, git\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_035",
+    "resume_text": "Candidate Name: Frank Lapidus\nEmail: frank.lapidus@example.com\nTitle: Junior Full Stack Engineer\nSkills: python, javascript, typescript, react, sql, docker, git\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, javascript, typescript, react, sql, docker, git.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_036",
+    "resume_text": "Candidate Name: Christian Shephard\nEmail: christian.shephard@example.com\nTitle: DevOps Engineer\nSkills: bash, docker, kubernetes, aws, git\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_037",
+    "resume_text": "Candidate Name: Ana Lucia\nEmail: ana.lucia@example.com\nTitle: Senior DevOps Engineer\nSkills: bash, docker, kubernetes, aws, git\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in bash.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_038",
+    "resume_text": "Candidate Name: Libby Smith\nEmail: libby.smith@example.com\nTitle: DevOps Engineer Specialist\nSkills: bash, docker, kubernetes, aws, git\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_039",
+    "resume_text": "Candidate Name: Michael Dawson\nEmail: michael.dawson@example.com\nTitle: Lead DevOps Engineer\nSkills: bash, docker, kubernetes, aws, git\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_040",
+    "resume_text": "Candidate Name: Walt Lloyd\nEmail: walt.lloyd@example.com\nTitle: Junior DevOps Engineer\nSkills: bash, docker, kubernetes, aws, git\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with bash, docker, kubernetes, aws, git.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_041",
+    "resume_text": "Candidate Name: Shannon Rutherford\nEmail: shannon.rutherford@example.com\nTitle: Cloud Engineer\nSkills: aws, docker, kubernetes, bash, git\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_042",
+    "resume_text": "Candidate Name: Boone Carlyle\nEmail: boone.carlyle@example.com\nTitle: Senior Cloud Engineer\nSkills: aws, docker, kubernetes, bash, git\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in aws.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_043",
+    "resume_text": "Candidate Name: Bernard Nadler\nEmail: bernard.nadler@example.com\nTitle: Cloud Engineer Specialist\nSkills: aws, docker, kubernetes, bash, git\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_044",
+    "resume_text": "Candidate Name: Rose Nadler\nEmail: rose.nadler@example.com\nTitle: Lead Cloud Engineer\nSkills: aws, docker, kubernetes, bash, git\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_045",
+    "resume_text": "Candidate Name: Penny Widmore\nEmail: penny.widmore@example.com\nTitle: Junior Cloud Engineer\nSkills: aws, docker, kubernetes, bash, git\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with aws, docker, kubernetes, bash, git.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  },
+  {
+    "candidate_id": "CAND_046",
+    "resume_text": "Candidate Name: Charles Widmore\nEmail: charles.widmore@example.com\nTitle: AI Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, docker, git\nExperience: 2 years of experience as a software professional. Led development of scalability initiatives. Optimized databases and API performance. Built complex tools.\nEducation: Bachelor of Science in Computer Science.\nProjects: Designed and launched a microservices infrastructure using Docker. Implemented automated pipelines."
+  },
+  {
+    "candidate_id": "CAND_047",
+    "resume_text": "Candidate Name: Desmond Hume\nEmail: desmond.hume@example.com\nTitle: Senior AI Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, docker, git\nExperience: Over 4 years of professional engineering experience. Designed distributed computing platforms, managed technical requirements, and coached engineering teams. Expert in python.\nEducation: Master of Science in Computer Science.\nProjects: Developed real-time telemetry processing pipelines."
+  },
+  {
+    "candidate_id": "CAND_048",
+    "resume_text": "Candidate Name: Eloise Hawking\nEmail: eloise.hawking@example.com\nTitle: AI Engineer Specialist\nSkills: python, pytorch, tensorflow, scikit-learn, docker, git\nExperience: 6 years working on production systems. Specialized in integration, automation, and performance optimization. Collaborated with teams globally.\nEducation: BS in Computer Science.\nProjects: Created custom dashboards and integration tools."
+  },
+  {
+    "candidate_id": "CAND_049",
+    "resume_text": "Candidate Name: Pierre Chang\nEmail: pierre.chang@example.com\nTitle: Lead AI Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, docker, git\nExperience: 8 years in development. Driven architectural shifts towards modern tech stacks. Focused on scalability, reliability, and developer experience.\nEducation: MS in Software Engineering.\nProjects: Built scalable ingestion systems handling millions of events daily."
+  },
+  {
+    "candidate_id": "CAND_050",
+    "resume_text": "Candidate Name: Jacob Light\nEmail: jacob.light@example.com\nTitle: Junior AI Engineer\nSkills: python, pytorch, tensorflow, scikit-learn, docker, git\nExperience: 10 years of hands-on development. Eager to learn, build and deploy features. Proficient with python, pytorch, tensorflow, scikit-learn, docker, git.\nEducation: BS in Information Technology.\nProjects: Built internal administration portals and API routes."
+  }
+]

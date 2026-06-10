@@ -1,0 +1,68 @@
+{
+  "validation": {
+    "resumes": {
+      "total_records": 10000,
+      "null_values": {
+        "resume_id": 0,
+        "category": 0,
+        "resume_text": 0
+      },
+      "columns": [
+        "resume_id",
+        "category",
+        "resume_text"
+      ],
+      "avg_word_count": 147.4682,
+      "min_word_count": 115,
+      "max_word_count": 183
+    },
+    "job_descriptions": {
+      "total_records": 1200,
+      "null_values": {
+        "jd_id": 0,
+        "category": 0,
+        "jd_text": 0
+      },
+      "columns": [
+        "jd_id",
+        "category",
+        "jd_text"
+      ],
+      "avg_word_count": 92.27833333333334,
+      "min_word_count": 78,
+      "max_word_count": 108
+    }
+  },
+  "imbalance": {
+    "resume_distribution": {
+      "Machine Learning Engineer": 834,
+      "Software Engineer": 834,
+      "Data Analyst": 834,
+      "Data Scientist": 834,
+      "Full Stack Developer": 833,
+      "Backend Developer": 833,
+      "Frontend Developer": 833,
+      "DevOps Engineer": 833,
+      "AI Engineer": 833,
+      "Business Analyst": 833,
+      "Cloud Engineer": 833,
+      "Cybersecurity Engineer": 833
+    },
+    "jd_distribution": {
+      "Business Analyst": 100,
+      "DevOps Engineer": 100,
+      "Data Scientist": 100,
+      "AI Engineer": 100,
+      "Software Engineer": 100,
+      "Data Analyst": 100,
+      "Cloud Engineer": 100,
+      "Machine Learning Engineer": 100,
+      "Backend Developer": 100,
+      "Full Stack Developer": 100,
+      "Frontend Developer": 100,
+      "Cybersecurity Engineer": 100
+    },
+    "resume_imbalance_ratio": 1.0012004801920769,
+    "jd_imbalance_ratio": 1.0
+  }
+}

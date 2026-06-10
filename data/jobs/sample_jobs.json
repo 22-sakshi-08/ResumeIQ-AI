@@ -1,0 +1,252 @@
+[
+  {
+    "job_id": "JOB_001",
+    "job_title": "Software Engineer",
+    "jd_text": "We are seeking a talented Software Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, java, c++, sql, git, docker. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_002",
+    "job_title": "Software Engineer",
+    "jd_text": "Join us as a Senior Software Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, java, c++, sql, git, docker. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_003",
+    "job_title": "Software Engineer",
+    "jd_text": "Looking for a motivated Software Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, java, c++, sql, git, docker. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_004",
+    "job_title": "Software Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Software Engineer. You will build and optimize software solutions, leveraging your skills in python, java, c++, sql, git, docker. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_005",
+    "job_title": "Software Engineer",
+    "jd_text": "Exciting opportunity for a Software Engineer to build modern cloud applications. Our tech stack is built around python, java, c++, sql, git, docker. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_006",
+    "job_title": "Data Scientist",
+    "jd_text": "We are seeking a talented Data Scientist to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, r, sql, scikit-learn, tensorflow, pytorch, pandas. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_007",
+    "job_title": "Data Scientist",
+    "jd_text": "Join us as a Senior Data Scientist! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, r, sql, scikit-learn, tensorflow, pytorch, pandas. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_008",
+    "job_title": "Data Scientist",
+    "jd_text": "Looking for a motivated Data Scientist to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, r, sql, scikit-learn, tensorflow, pytorch, pandas. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_009",
+    "job_title": "Data Scientist",
+    "jd_text": "We are expanding our product team and hiring a lead Data Scientist. You will build and optimize software solutions, leveraging your skills in python, r, sql, scikit-learn, tensorflow, pytorch, pandas. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_010",
+    "job_title": "Data Scientist",
+    "jd_text": "Exciting opportunity for a Data Scientist to build modern cloud applications. Our tech stack is built around python, r, sql, scikit-learn, tensorflow, pytorch, pandas. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_011",
+    "job_title": "Machine Learning Engineer",
+    "jd_text": "We are seeking a talented Machine Learning Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_012",
+    "job_title": "Machine Learning Engineer",
+    "jd_text": "Join us as a Senior Machine Learning Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_013",
+    "job_title": "Machine Learning Engineer",
+    "jd_text": "Looking for a motivated Machine Learning Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_014",
+    "job_title": "Machine Learning Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Machine Learning Engineer. You will build and optimize software solutions, leveraging your skills in python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_015",
+    "job_title": "Machine Learning Engineer",
+    "jd_text": "Exciting opportunity for a Machine Learning Engineer to build modern cloud applications. Our tech stack is built around python, pytorch, tensorflow, scikit-learn, xgboost, docker, git, bash. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_016",
+    "job_title": "Data Engineer",
+    "jd_text": "We are seeking a talented Data Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, scala, sql, aws, docker, bash. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_017",
+    "job_title": "Data Engineer",
+    "jd_text": "Join us as a Senior Data Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, scala, sql, aws, docker, bash. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_018",
+    "job_title": "Data Engineer",
+    "jd_text": "Looking for a motivated Data Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, scala, sql, aws, docker, bash. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_019",
+    "job_title": "Data Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Data Engineer. You will build and optimize software solutions, leveraging your skills in python, scala, sql, aws, docker, bash. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_020",
+    "job_title": "Data Engineer",
+    "jd_text": "Exciting opportunity for a Data Engineer to build modern cloud applications. Our tech stack is built around python, scala, sql, aws, docker, bash. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_021",
+    "job_title": "Backend Engineer",
+    "jd_text": "We are seeking a talented Backend Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, java, go, sql, docker, git, bash. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_022",
+    "job_title": "Backend Engineer",
+    "jd_text": "Join us as a Senior Backend Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, java, go, sql, docker, git, bash. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_023",
+    "job_title": "Backend Engineer",
+    "jd_text": "Looking for a motivated Backend Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, java, go, sql, docker, git, bash. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_024",
+    "job_title": "Backend Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Backend Engineer. You will build and optimize software solutions, leveraging your skills in python, java, go, sql, docker, git, bash. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_025",
+    "job_title": "Backend Engineer",
+    "jd_text": "Exciting opportunity for a Backend Engineer to build modern cloud applications. Our tech stack is built around python, java, go, sql, docker, git, bash. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_026",
+    "job_title": "Frontend Engineer",
+    "jd_text": "We are seeking a talented Frontend Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include javascript, typescript, react, html, css, git. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_027",
+    "job_title": "Frontend Engineer",
+    "jd_text": "Join us as a Senior Frontend Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in javascript, typescript, react, html, css, git. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_028",
+    "job_title": "Frontend Engineer",
+    "jd_text": "Looking for a motivated Frontend Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using javascript, typescript, react, html, css, git. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_029",
+    "job_title": "Frontend Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Frontend Engineer. You will build and optimize software solutions, leveraging your skills in javascript, typescript, react, html, css, git. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_030",
+    "job_title": "Frontend Engineer",
+    "jd_text": "Exciting opportunity for a Frontend Engineer to build modern cloud applications. Our tech stack is built around javascript, typescript, react, html, css, git. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_031",
+    "job_title": "Full Stack Engineer",
+    "jd_text": "We are seeking a talented Full Stack Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, javascript, typescript, react, sql, docker, git. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_032",
+    "job_title": "Full Stack Engineer",
+    "jd_text": "Join us as a Senior Full Stack Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, javascript, typescript, react, sql, docker, git. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_033",
+    "job_title": "Full Stack Engineer",
+    "jd_text": "Looking for a motivated Full Stack Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, javascript, typescript, react, sql, docker, git. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_034",
+    "job_title": "Full Stack Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Full Stack Engineer. You will build and optimize software solutions, leveraging your skills in python, javascript, typescript, react, sql, docker, git. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_035",
+    "job_title": "Full Stack Engineer",
+    "jd_text": "Exciting opportunity for a Full Stack Engineer to build modern cloud applications. Our tech stack is built around python, javascript, typescript, react, sql, docker, git. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_036",
+    "job_title": "DevOps Engineer",
+    "jd_text": "We are seeking a talented DevOps Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include bash, docker, kubernetes, aws, git. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_037",
+    "job_title": "DevOps Engineer",
+    "jd_text": "Join us as a Senior DevOps Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in bash, docker, kubernetes, aws, git. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_038",
+    "job_title": "DevOps Engineer",
+    "jd_text": "Looking for a motivated DevOps Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using bash, docker, kubernetes, aws, git. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_039",
+    "job_title": "DevOps Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead DevOps Engineer. You will build and optimize software solutions, leveraging your skills in bash, docker, kubernetes, aws, git. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_040",
+    "job_title": "DevOps Engineer",
+    "jd_text": "Exciting opportunity for a DevOps Engineer to build modern cloud applications. Our tech stack is built around bash, docker, kubernetes, aws, git. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_041",
+    "job_title": "Cloud Engineer",
+    "jd_text": "We are seeking a talented Cloud Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include aws, docker, kubernetes, bash, git. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_042",
+    "job_title": "Cloud Engineer",
+    "jd_text": "Join us as a Senior Cloud Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in aws, docker, kubernetes, bash, git. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_043",
+    "job_title": "Cloud Engineer",
+    "jd_text": "Looking for a motivated Cloud Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using aws, docker, kubernetes, bash, git. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_044",
+    "job_title": "Cloud Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead Cloud Engineer. You will build and optimize software solutions, leveraging your skills in aws, docker, kubernetes, bash, git. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_045",
+    "job_title": "Cloud Engineer",
+    "jd_text": "Exciting opportunity for a Cloud Engineer to build modern cloud applications. Our tech stack is built around aws, docker, kubernetes, bash, git. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  },
+  {
+    "job_id": "JOB_046",
+    "job_title": "AI Engineer",
+    "jd_text": "We are seeking a talented AI Engineer to join our engineering team. In this role, you will design, develop, and maintain critical systems and services. Required skills include python, pytorch, tensorflow, scikit-learn, docker, git. Candidates should have 3 years of industry experience, strong problem-solving skills, and a Bachelor's or Master's degree in Computer Science or a related field. You will collaborate with cross-functional teams to deliver high-quality software."
+  },
+  {
+    "job_id": "JOB_047",
+    "job_title": "AI Engineer",
+    "jd_text": "Join us as a Senior AI Engineer! We are looking for an experienced professional to lead our development efforts. The ideal candidate will have expertise in python, pytorch, tensorflow, scikit-learn, docker, git. Responsibilities include system architecture design, code review, mentoring junior engineers, and optimizing system performance. Minimum 4 years of experience required. Education: BS/MS/PhD in Computer Science."
+  },
+  {
+    "job_id": "JOB_048",
+    "job_title": "AI Engineer",
+    "jd_text": "Looking for a motivated AI Engineer to work on cutting-edge features. You will be responsible for implementing robust and scalable features using python, pytorch, tensorflow, scikit-learn, docker, git. The role requires 5 years of hands-on experience and familiarity with software engineering best practices. Must be a self-starter who works well in agile teams."
+  },
+  {
+    "job_id": "JOB_049",
+    "job_title": "AI Engineer",
+    "jd_text": "We are expanding our product team and hiring a lead AI Engineer. You will build and optimize software solutions, leveraging your skills in python, pytorch, tensorflow, scikit-learn, docker, git. Strong experience in system design and 6+ years of experience is required. A degree in Software Engineering or equivalent experience is preferred."
+  },
+  {
+    "job_id": "JOB_050",
+    "job_title": "AI Engineer",
+    "jd_text": "Exciting opportunity for a AI Engineer to build modern cloud applications. Our tech stack is built around python, pytorch, tensorflow, scikit-learn, docker, git. If you have 7 years of experience, a strong background in software development, and love solving complex engineering challenges, we want to hear from you."
+  }
+]

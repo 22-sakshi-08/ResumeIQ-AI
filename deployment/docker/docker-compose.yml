@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/backend.Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_NAME=all-MiniLM-L6-v2
+    restart: unless-stopped
+    networks:
+      - resumeiq-net
+
+  frontend:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/frontend.Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - resumeiq-net
+
+networks:
+  resumeiq-net:
+    driver: bridge
