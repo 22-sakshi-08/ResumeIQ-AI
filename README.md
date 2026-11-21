@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ATS Resume Scorer
 
 A web app that scores how well a resume matches a job description and returns actionable feedback. Built with FastAPI + Streamlit, using spaCy and Sentence Transformers for NLP and the Groq API for LLM-generated suggestions.
@@ -100,3 +101,6 @@ The app opens at `http://localhost:8501`.
 - The first run downloads the Sentence Transformer model (~80 MB). It's cached afterwards.
 - If you don't have a Groq key yet, the scoring still works — only the LLM suggestions section will be empty.
 - `jupyter notebooks/` and `ml model/` are for experimentation and aren't required to run the app.
+=======
+# Resume-AI
+>>>>>>> 9432bb9691b88690f37ee3500d2e79b15d121e0b
